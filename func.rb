@@ -2,16 +2,16 @@
 class Func < Formula
   desc ""
   homepage ""
-  version "0.0.14"
+  version "0.0.15"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/moritzzimmer/func/releases/download/v0.0.14/func_0.0.14_darwin_amd64.tar.gz"
-    sha256 "f38c704501c8a74f94296fca2a5b415497083e2a19dcd175207d780494cecae1"
+    url "https://github.com/moritzzimmer/func/releases/download/v0.0.15/func_0.0.15_darwin_amd64.tar.gz"
+    sha256 "60aa653624f0e8cafa09ca5b5a37eb2e0bfb3fb0611adb6d3346f42ae2049b08"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/moritzzimmer/func/releases/download/v0.0.14/func_0.0.14_linux_amd64.tar.gz"
-      sha256 "2f82ee1f1fd609296dd7b0f1db923dbc8bde6bfd6bcbe8a4b438f9d88d306317"
+      url "https://github.com/moritzzimmer/func/releases/download/v0.0.15/func_0.0.15_linux_amd64.tar.gz"
+      sha256 "2a45dcb773e01ed442b9046e0483a283d30b21b32c9bb1faea1415693a74977c"
     end
   end
 
